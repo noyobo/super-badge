@@ -11,7 +11,7 @@ generator badge svg
 
 ### Options
 
-* `color` status background color; defailt: `red`
+* `color` status background color; default: `red`
   * red
   * orange
   * green
