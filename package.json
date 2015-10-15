@@ -1,0 +1,21 @@
+{
+  "name": "super-badge",
+  "version": "0.1.0",
+  "description": "generator badge svg",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "noyobo",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.template": "^3.6.2",
+    "object-assign": "^4.0.1",
+    "string-width": "^1.0.1"
+  },
+  "devDependencies": {}
+}
