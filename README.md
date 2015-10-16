@@ -2,6 +2,7 @@
 
 [![npm version](http://img.shields.io/npm/v/super-badge.svg)](https://www.npmjs.org/package/super-badge)
 [![npm download](http://img.shields.io/npm/dm/super-badge.svg)](https://www.npmjs.org/package/super-badge)
+[![Build Status](https://travis-ci.org/noyobo/super-badge.svg)](https://travis-ci.org/noyobo/super-badge)
 
 generator badge svg
 
