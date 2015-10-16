@@ -1,11 +1,12 @@
 {
   "name": "super-badge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "generator badge svg",
   "main": "index.js",
   "files": [
     "index.js",
-    "lib/"
+    "lib/",
+    "templates/"
   ],
   "scripts": {
     "test": "node test/index.js"
