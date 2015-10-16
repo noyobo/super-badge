@@ -8,7 +8,7 @@ var assert = require('assert');
 var expectedSvg = fs.readFileSync(path.join(__dirname, './expected.svg')).toString();
 
 var svg = badge({
-  subject: 'super-badg',
+  subject: 'super-badge',
   status: '0.1.0',
   color: 'yellowgreen'
 });
