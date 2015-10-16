@@ -10,6 +10,10 @@
   "scripts": {
     "test": "node test/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/noyobo/super-badge.git"
+  },
   "author": "noyobo",
   "license": "MIT",
   "dependencies": {
