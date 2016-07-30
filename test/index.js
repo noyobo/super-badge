@@ -1,4 +1,4 @@
-var badge = require('../src/index.js');
+var badge = require('../');
 
 var fs = require('fs');
 var path = require('path');
