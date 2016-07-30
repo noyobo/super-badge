@@ -5,11 +5,12 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "lib/",
-    "templates/"
+    "lib/"
   ],
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js",
+    "build": "npm run babel",
+    "babel": "babel --presets es2015 ./src --out-dir ./lib"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,10 @@
   "author": "noyobo",
   "license": "MIT",
   "dependencies": {
-    "lodash.template": "^3.6.2",
     "object-assign": "^4.0.1",
     "string-width": "^1.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-preset-es2015": "~6.9.0"
+  }
 }
