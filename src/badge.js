@@ -13,7 +13,7 @@ var colorMap = {
 
 var assign = require('object-assign');
 var stringWidth = require('string-width');
-var svgTemplate = require('./template.js')
+var svgTemplate = require('./template.js');
 
 var baseWidth = 7;
 

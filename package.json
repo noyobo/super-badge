@@ -10,7 +10,8 @@
   "scripts": {
     "test": "node test/index.js",
     "build": "npm run babel",
-    "babel": "babel --presets es2015 ./src --out-dir ./lib"
+    "babel": "babel --presets es2015 ./src --out-dir ./lib",
+    "prepublish": "npm run babel"
   },
   "repository": {
     "type": "git",
