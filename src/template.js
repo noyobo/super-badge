@@ -13,10 +13,10 @@ module.exports = function(data) {
     <path fill="url(#b)" d="M0  0 h${data.width} v20 H0  z" />
   </g>
   <g fill="#fff" text-anchor="middle" font-family="'Lucida Console', Monaco, monospace, sans-serif" font-size="11">
-    <text x="${data.subjectWidth / 2}" y="15" fill="#010101" fill-opacity=".3">${data.subject}</text>
-    <text x="${data.subjectWidth / 2}" y="14">${data.subject}</text>
-    <text x="${data.statusWidth / 2 + data.subjectWidth}" y="15" fill="#010101" fill-opacity=".3">${data.status}</text>
-    <text x="${data.statusWidth / 2 + data.subjectWidth}" y="14">${data.status}</text>
+    <text x="${Math.floor(data.subjectWidth / 2)}" y="15" fill="#010101" fill-opacity=".3">${data.subject}</text>
+    <text x="${Math.floor(data.subjectWidth / 2)}" y="14">${data.subject}</text>
+    <text x="${Math.floor(data.statusWidth / 2) + data.subjectWidth}" y="15" fill="#010101" fill-opacity=".3">${data.status}</text>
+    <text x="${Math.floor(data.statusWidth / 2) + data.subjectWidth}" y="14">${data.status}</text>
   </g>
 </svg>`;
 };
